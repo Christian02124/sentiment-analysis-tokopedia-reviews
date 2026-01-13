@@ -55,14 +55,6 @@ The goal of this project is to demonstrate a complete **machine learning pipelin
 
 ---
 
-## 🚀 Inference Example
-```python
-predict_sentiment("Barangnya bagus dan pengiriman cepat")
-# Output: positive
-
-predict_sentiment("barang jelek dan tidak sesuai")
-# Output: negative
-
 ## 📊 Visualisasi Hasil
 
 ### Distribusi Sentimen
@@ -75,3 +67,11 @@ predict_sentiment("barang jelek dan tidak sesuai")
 ### Interpretasi Model
 ![Top Kata Positif](images/topwords_positive.png)
 ![Top Kata Negatif](images/topwords_negative.png)
+
+## 🚀 Inference Example
+```python
+predict_sentiment("Barangnya bagus dan pengiriman cepat")
+# Output: positive
+
+predict_sentiment("barang jelek dan tidak sesuai")
+# Output: negative
